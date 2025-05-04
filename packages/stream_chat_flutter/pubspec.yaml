@@ -1,7 +1,7 @@
 name: stream_chat_flutter
 homepage: https://github.com/GetStream/stream-chat-flutter
 description: Stream Chat official Flutter SDK. Build your own chat experience using Dart and Flutter.
-version: 9.8.0
+version: 9.8.0+1
 repository: https://github.com/GetStream/stream-chat-flutter
 issue_tracker: https://github.com/GetStream/stream-chat-flutter/issues
 
@@ -18,7 +18,7 @@ issue_tracker: https://github.com/GetStream/stream-chat-flutter/issues
 #   2. Add it to the melos.yaml file for future updates.
 
 environment:
-  sdk: ^3.6.2
+  sdk: ^3.7.2
   flutter: ">=3.27.4"
 
 dependencies:
@@ -26,7 +26,7 @@ dependencies:
   chewie: ^1.8.1
   collection: ^1.17.2
   contextmenu: ^3.0.0
-  desktop_drop: ^0.5.0
+  desktop_drop: ^0.6.0
   diacritic: ^0.1.5
   dio: ^5.4.3+1
   ezanimation: ^0.6.0
@@ -42,8 +42,8 @@ dependencies:
   http_parser: ^4.0.2
   image_picker: ^1.1.2
   image_size_getter: ^2.3.0
-  jiffy: ^6.2.1
-  just_audio: ^0.9.38
+  jiffy: ^6.3.1
+  just_audio: ^0.10.2
   lottie: ^3.1.2
   media_kit: ^1.1.10+1
   media_kit_video: ^1.2.4
@@ -54,9 +54,10 @@ dependencies:
   rate_limiter: ^1.0.0
   record: ">=5.2.0 <7.0.0"
   rxdart: ^0.28.0
-  share_plus: ^10.0.2
+  share_plus: ^11.0.0
   shimmer: ^3.0.0
-  stream_chat_flutter_core: ^9.8.0
+  stream_chat_flutter_core:
+    path: ../stream_chat_flutter_core/
   svg_icon_widget: ^0.0.1
   synchronized: ^3.1.0+1
   thumblr: ^0.0.4

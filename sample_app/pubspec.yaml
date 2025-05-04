@@ -16,7 +16,7 @@ version: 2.2.0
 #   2. Add it to the melos.yaml file for future updates.
 
 environment:
-  sdk: ^3.6.2
+  sdk: ^3.7.2
   flutter: ">=3.27.4"
 
 dependencies:
@@ -26,17 +26,20 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_app_badger: ^1.5.0
-  flutter_local_notifications: ^18.0.1
+  flutter_local_notifications: ^19.1.0
   flutter_secure_storage: ^9.2.2
-  flutter_slidable: ^3.1.1
+  flutter_slidable: ^4.0.0
   flutter_svg: ^2.0.10+1
-  go_router: ^14.6.2
+  go_router: ^15.1.1
   lottie: ^3.1.2
   provider: ^6.0.5
   sentry_flutter: ^8.3.0
-  stream_chat_flutter: ^9.8.0
-  stream_chat_localizations: ^9.8.0
-  stream_chat_persistence: ^9.8.0
+  stream_chat_flutter:
+    path: ../stream_chat_flutter/
+  stream_chat_localizations:
+    path: ../stream_chat_localizations/
+  stream_chat_persistence:
+    path: ../stream_chat_persistence/
   streaming_shared_preferences: ^2.0.0
   uuid: ^4.4.0
   video_player: ^2.8.7

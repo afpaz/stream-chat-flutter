@@ -5,6 +5,14 @@
 - Added teams role support for users.
 - Added support for Filtering and Sorting in the `client.queryThreads` method.
 
+## 9.8.0+1
+
+🔄 Changed
+
+- Updated Dart SDK to latest version compatible with Flutter
+- Updated dependencies to latest supported versions
+- Only compatible with `jose` [version `0.3.4+1` from this fork](https://github.com/afpaz/jose)
+
 ## 9.8.0
 
 ✅ Added
@@ -74,7 +82,7 @@
 
 - [[#1774]](https://github.com/GetStream/stream-chat-flutter/issues/1774) Fixed failed to execute 'close' on 'WebSocket'.
 - [[#2016]](https://github.com/GetStream/stream-chat-flutter/issues/2016) Fix muted channel's unreadCount incorrectly updated.
-  
+
 🔄 Changed
 
 - Refactored identifying the `Attachment.uploadState` logic for local and remote attachments. Also updated the logic for determining the attachment type to check for ogScrapeUrl instead of `AttachmentType.giphy`.
@@ -185,7 +193,7 @@
 
 🐞 Fixed
 
-- [[#1837]](https://github.com/GetStream/stream-chat-flutter/issues/1837) Delete image and file 
+- [[#1837]](https://github.com/GetStream/stream-chat-flutter/issues/1837) Delete image and file
   attachments from the CDN, when the message get's hard deleted.
 - [[#1819]](https://github.com/GetStream/stream-chat-flutter/issues/1819) Handle network errors
   with String payload.
@@ -210,12 +218,12 @@
 🔄 Changed
 
 - Updated minimum supported `SDK` version to Flutter 3.13/Dart 3.1
-  
+
 # 6.10.0
 
 🐞 Fixed
 
-- [[#1753]](https://github.com/GetStream/stream-chat-flutter/issues/1753) Fixed Unhandled null 
+- [[#1753]](https://github.com/GetStream/stream-chat-flutter/issues/1753) Fixed Unhandled null
   check operator exception when user is removed from a channel.
 
 ## 6.9.0
@@ -402,7 +410,7 @@
     channel.removeMembers([...ids], message);
     channel.inviteMembers([...ids], message);
     channel.update({...channelData}, updateMessage);
-  
+
     // new
     channel.addMembers([...ids], message: ..., hideHistory: ...);
     channel.removeMembers([...ids], message: ...);

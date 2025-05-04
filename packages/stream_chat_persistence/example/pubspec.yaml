@@ -1,6 +1,6 @@
 name: stream_chat_persistence_example
 description: A new Flutter project.
-publish_to: 'none' 
+publish_to: 'none'
 version: 1.0.0+1
 
 # Note: The environment configuration and dependency versions are managed by Melos.
@@ -16,15 +16,17 @@ version: 1.0.0+1
 #   2. Add it to the melos.yaml file for future updates.
 
 environment:
-  sdk: ^3.6.2
+  sdk: ^3.7.2
   flutter: ">=3.27.4"
 
 dependencies:
   cupertino_icons: ^1.0.3
   flutter:
     sdk: flutter
-  stream_chat: ^9.8.0
-  stream_chat_persistence: ^9.8.0
+  stream_chat:
+    path: ../stream_chat/
+  stream_chat_persistence:
+    path: ../stream_chat_persistence/
 
 flutter:
   uses-material-design: true
