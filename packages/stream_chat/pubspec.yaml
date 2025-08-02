@@ -4,6 +4,7 @@ description: The official Dart client for Stream Chat, a service for building ch
 version: 9.8.0+1
 repository: https://github.com/GetStream/stream-chat-flutter
 issue_tracker: https://github.com/GetStream/stream-chat-flutter/issues
+publish_to: none
 
 # Note: The environment configuration and dependency versions are managed by Melos.
 #
@@ -28,7 +29,8 @@ dependencies:
   freezed_annotation: ^3.0.0
   http_parser: ^4.0.2
   jose:
-    path: ../../../jose/
+    git:
+      url: https://github.com/afpaz/jose
   json_annotation: ^4.9.0
   logging: ^1.2.0
   meta: ^1.9.1
